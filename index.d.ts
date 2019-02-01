@@ -31,6 +31,7 @@ interface TextInputMaskProps extends TextInputProps {
   options?: TextInputMaskOptionProp;
   checkText?: (previous: string, next: string) => boolean;
   onChangeText?: (text: string) => void;
+  customTextInput?: React.ReactNode;
 }
 
 // TextInputMask Component
