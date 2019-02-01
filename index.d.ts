@@ -2,7 +2,7 @@ import * as React from "react";
 import {TextInput, TextInputProps} from "react-native";
 
 // Type prop of TextInputMask.
-type TextInputMaskTypeProp = "credit-card" | "cpf" | "cnpj" | "zip-code" | "only-numbers" | "money" | "cel-phone" | "datetime" | "custom";
+type TextInputMaskTypeProp = "cpf-cnpj" | "credit-card" | "cpf" | "cnpj" | "zip-code" | "only-numbers" | "money" | "cel-phone" | "datetime" | "custom";
 
 // Option prop of TextInputMask.
 type TextInputMaskOptionProp = {
